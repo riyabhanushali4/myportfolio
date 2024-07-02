@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riya Bhanushali - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Riya Bhanushali</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I am passionate about leveraging artificial intelligence to solve real-world problems. Currently pursuing a Bachelor's degree in Computer Engineering with a specialization in AI at Marwadi University, Rajkot. My academic journey has equipped me with a solid foundation in machine learning algorithms, deep learning frameworks, and data analysis techniques.
+            </p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>Bachelor of Technology in Computer Engineering - AI</h3>
+                    <p>Marwadi University (NAAC A+), Rajkot<br>2021 - 2025</p>
+                </li>
+                <li>
+                    <h3>Higher Secondary</h3>
+                    <p>Matruchhaya Kanya Vidhyalaya, Bhuj<br>2020 - 2021</p>
+                </li>
+                <li>
+                    <h3>Matriculation</h3>
+                    <p>Matruchhaya Kanya Vidhyalaya, Bhuj<br>2019</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <h3>Heart Disease Prediction</h3>
+            <p>
+                A web-based platform that predicts heart disease risk and provides personalized recommendations for prevention and management. Patients register, input health data, and receive doctor suggestions, prescriptions, and counseling plans.
+            </p>
+
+            <h3>Game Design Internship</h3>
+            <p>
+                Designed characters and backgrounds for various game projects. Utilized Figma and Photoshop to create visually appealing assets.
+            </p>
+
+            <h3>Company Website</h3>
+            <p>
+                Designed a website for a client focused on investment. Created visually appealing designs and a user-friendly interface for investors.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Reach out, share a question or provide feedback on our products. Fill out the form and we’ll respond as soon as possible.</p>
+            <form action="submit.php" method="post">
+                <div class="form-group">
+                    <label for="fname">First name *</label><br>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last name *</label><br>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="organization">Organization</label><br>
+                    <input type="text" id="organization" name="organization">
+                </div>
+                <div class="form-group">
+                    <label for="inquiry">Type of inquiry *</label><br>
+                    <select id="inquiry" name="inquiry" required>
+                        <option value="question">Question</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Riya Bhanushali. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
